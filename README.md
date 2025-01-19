@@ -24,7 +24,7 @@ Each directory contains subdirectories or files corresponding to individual prob
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Practise.git
+    git clone https://github.com/jarenlimhaan/Practise.git
     ```
 2. Navigate to the desired platform directory:
     ```bash
@@ -35,13 +35,3 @@ Each directory contains subdirectories or files corresponding to individual prob
 ## Contributions
 
 Feel free to fork this repository and submit pull requests if you have improvements or additional solutions to share.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or suggestions, please contact me at [your-email@example.com].
-
-Happy Coding!
