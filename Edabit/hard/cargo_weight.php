@@ -16,4 +16,18 @@
         }
         return true;
     }
+
+    class CargoWillFit {
+        public function tests() {
+            assert(true === willFit(["M", "L", "L", "M"], [56, 62, 84, 90]));
+            assert(true === willFit(["L", "L", "M"], [56, 62, 84, 90]));
+            assert(false === willFit(["S", "S", "S", "S", "L"], [40, 50, 60, 70 , 80, 90, 200]));
+            assert(false === willFit(["S", "L"], [73 , 87, 95, 229]));
+            assert(true === willFit(["L", "L", "L", "L"], [54, 54, 200, 200, 200]), "54 and 54 can fit in one hold.");
+            print "All Test Cases Passed :)";
+        }
+    }
+
+    $test = new CargoWillFit();
+    $test->tests();
 ?>

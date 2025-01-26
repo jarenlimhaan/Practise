@@ -26,7 +26,6 @@
                 movingPartition([8, 9, 10])
             );
             assert([] === movingPartition([]));
-
             print "All Test Cases Passed :)";
         }
     }
