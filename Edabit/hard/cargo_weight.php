@@ -6,9 +6,6 @@
     //"M" means 100 cargo space.
     //"L" means 200 cargo space.
     function willFit($holds, $cargo) {
-        // if is S -> 50
-        // if is M -> 100
-        // if is L -> 200
 
         $map = array("S" => 50, "M" => 100, "L" => 200);
 
