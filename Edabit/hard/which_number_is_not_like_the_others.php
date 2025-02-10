@@ -1,5 +1,8 @@
 <?php
-    // Create a function that takes an array of numbers and returns the number that's unique.
+    /*
+        Create a function that takes an array of numbers and returns the number that's unique.
+    */
+    
     function unique($arr) {
         foreach($arr as $idx=>$ele) {
             if(!in_array($ele, array_merge(array_slice($arr, 0, $idx), array_slice($arr, $idx+1)))) {

@@ -1,10 +1,13 @@
 <?php
-    // In mathematics a Polydivisible Number (or magic number) is a number in a given number base with digits abcde... that has the following properties:
-        // Its first digit a is not 0.
-        // The number formed by its first two digits ab is a multiple of 2.
-        // The number formed by its first three digits abc is a multiple of 3.
-        // The number formed by its first four digits abcd is a multiple of 4.
-    // Create a function which takes an integer $num and returns true if the given number is a Polydivisible Number and false otherwise.
+    /*
+        In mathematics a Polydivisible Number (or magic number) is a number in a given number base with digits abcde... that has the following properties:
+            // Its first digit a is not 0.
+            // The number formed by its first two digits ab is a multiple of 2.
+            // The number formed by its first three digits abc is a multiple of 3.
+            // The number formed by its first four digits abcd is a multiple of 4.
+        Create a function which takes an integer $num and returns true if the given number is a Polydivisible Number and false otherwise.
+    */
+
     function isPolyDivisible($num) {
         $s = (string) $num;
 

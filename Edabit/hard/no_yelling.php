@@ -1,6 +1,9 @@
 <?php
-    // Create a function that transforms sentences ending with multiple question marks ? or exclamation marks ! 
-    // into a sentence only ending with one without changing punctuation in the middle of the sentences.
+    /*
+        Create a function that transforms sentences ending with multiple question marks ? or exclamation marks ! 
+        into a sentence only ending with one without changing punctuation in the middle of the sentences.
+    */
+    
     function noYelling($s) {
         $i = strlen($s) - 1;
         while ($i > 0 && ($s[$i] === '!' || $s[$i] === '?') && $s[$i] === $s[$i - 1]) {

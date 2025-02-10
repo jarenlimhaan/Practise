@@ -1,9 +1,13 @@
 <?php
-    // You are given an array of scores. The even-indexed numbers are your scores at each turn. The odd-indexed numbers are your opponent's scores.
-    // Create a function that turns this list of scores into an array of who is currently winning.
+    /*
+        You are given an array of scores. The even-indexed numbers are your scores at each turn. The odd-indexed numbers are your opponent's scores.
+        Create a function that turns this list of scores into an array of who is currently winning.
+    */
+
     function currentlyWinning($arr) {
         // T = Tie, O = Opponent, Y = You
         // given that is every even-index pair (consider looping by even indexes)
+
         $res = [];
         for($i = 0; $i < count($arr); $i += 2) {
             if($arr[$i] === $arr[$i+1]) {

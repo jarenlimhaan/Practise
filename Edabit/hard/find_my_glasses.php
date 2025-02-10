@@ -1,6 +1,9 @@
 <?php
-    // Given that within an array of string, it contains a sequence of charactes that mimics glasses
-    // like O---O, there can be any number of dashes in between (at least 1 dash is required) (OO) doesn't count
+    /*
+        Given that within an array of string, it contains a sequence of charactes that mimics glasses
+        like O---O, there can be any number of dashes in between (at least 1 dash is required) (OO) doesn't count
+    */
+    
     function findGlasses($arr) {
         $res = 0;
 

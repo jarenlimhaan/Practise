@@ -1,7 +1,10 @@
 <?php
-    // With an n input, your output should be an array containing n-1 subarrays. 
-    // Each subarray should have two elements: the left and the right side of the partition (both should be non-empty, unless the input array is empty). 
-    // An empty array should return an empty array: []
+    /*
+        With an n input, your output should be an array containing n-1 subarrays. 
+        Each subarray should have two elements: the left and the right side of the partition (both should be non-empty, unless the input array is empty). 
+        An empty array should return an empty array: []
+    */
+
     function movingPartition($arr) {
         $result = [];
         for ($i = 1; $i < count($arr); $i++) {

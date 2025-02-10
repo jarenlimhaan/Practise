@@ -1,5 +1,8 @@
 <?php
-    // Create a function that splits a string into an array of identical clusters.
+    /*
+        Create a function that splits a string into an array of identical clusters.
+    */
+    
     function splitGroups($s) {
         $res = [];
         $group = $s[0];

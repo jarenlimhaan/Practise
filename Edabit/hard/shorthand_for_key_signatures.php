@@ -1,7 +1,10 @@
 <?php
-    // Given a string containing a key signature written in shorthand, create a function which replaces the shorthand with its full written name.
-    // A lowercase letter denotes a minor key.
-    // An uppercase letter denotes a major key.
+    /*
+        Given a string containing a key signature written in shorthand, create a function which replaces the shorthand with its full written name.
+        A lowercase letter denotes a minor key.
+        An uppercase letter denotes a major key.
+    */
+    
     function fullKeyName($s) {
         $arr = explode(" ", $s);
         $lastChar = $arr[count($arr) - 1];

@@ -1,11 +1,11 @@
 # Practice Repository
 
-This repository contains my solutions to various coding problems from platforms like LeetCode, NeetCode, and HackerRank. It serves as a collection of my practice submissions and coding exercises.
+This repository contains my solutions to various coding problems from platforms like LeetCode, Edabit, and HackerRank. It serves as a collection of my practice submissions and coding exercises.
 
 ## Contents
 
 - **LeetCode**: Solutions to problems from LeetCode.
-- **NeetCode**: Solutions to problems from NeetCode.
+- **Edabit**: Solutions to problems from Edabit.
 - **HackerRank**: Solutions to problems from HackerRank.
 
 ## Structure
@@ -14,7 +14,7 @@ The repository is organized into directories based on the platform:
 
 ```
 /LeetCode
-/NeetCode
+/Edabit
 /HackerRank
 ```
 
