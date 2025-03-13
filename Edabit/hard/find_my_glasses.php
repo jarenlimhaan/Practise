@@ -12,6 +12,7 @@
             $hasDash = false;   
 
             foreach (str_split($ele) as $char) {
+                
                 if (!$startChar && $char === "O") {
                     $startChar = true;
                 } elseif ($startChar && $char === "O") {

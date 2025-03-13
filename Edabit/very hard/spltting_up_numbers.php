@@ -1,19 +1,24 @@
 <?php
 
+    /*
+        Create a function that takes a number $num and returns each place value in the number.    
+    */
+
     function numSplit($n) {
         $result = [];
-        $place = 1; // Keep track of place values (1s, 10s, 100s, etc.)
-        
-        while ($n != 0) {
-            $digit = $n % 10; // Get the last digit
-            if ($digit != 0) {
-                array_unshift($result, $digit * $place); // Add it at the beginning
-            }
-            $n = intdiv($n, 10); // Remove the last digit
-            $place *= 10; // Move to the next place (10, 100, etc.)
+
+        $isNegative = $n < 0 ? true : false;
+        $n = abs($n);
+
+        $chars = str_split(strval($n));
+        $len = strlen($n);
+
+        foreach($chars as $key => $char) {
+            $val = (int) $char * pow(10, $len - $key - 1);
+            $result[] = $isNegative ? -$val : $val;
         }
-        var_dump($result);
         return $result;
+       
     }
 
     class NumSplit {
